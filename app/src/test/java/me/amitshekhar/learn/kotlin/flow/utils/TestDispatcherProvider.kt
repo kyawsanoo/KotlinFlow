@@ -3,6 +3,7 @@ package me.amitshekhar.learn.kotlin.flow.utils
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
+import kso.android.kotlinflow.utils.DispatcherProvider
 
 @ExperimentalCoroutinesApi
 class TestDispatcherProvider : DispatcherProvider {

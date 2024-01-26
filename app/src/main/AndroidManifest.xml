@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="me.amitshekhar.learn.kotlin.flow">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -16,7 +15,7 @@
         android:theme="@style/Theme.LearnKotlinFlow"
         tools:targetApi="31">
         <activity
-            android:name=".ui.MainActivity"
+            android:name="kso.android.kotlinflow.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,59 +24,59 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.retrofit.single.SingleNetworkCallActivity"
+            android:name="kso.android.kotlinflow.ui.retrofit.single.SingleNetworkCallActivity"
             android:label="@string/single_network_call" />
         <activity
-            android:name=".ui.retrofit.series.SeriesNetworkCallsActivity"
+            android:name="kso.android.kotlinflow.ui.retrofit.series.SeriesNetworkCallsActivity"
             android:label="@string/series_network_calls" />
         <activity
-            android:name=".ui.retrofit.parallel.ParallelNetworkCallsActivity"
+            android:name="kso.android.kotlinflow.ui.retrofit.parallel.ParallelNetworkCallsActivity"
             android:label="@string/parallel_network_calls" />
         <activity
-            android:name=".ui.room.RoomDBActivity"
+            android:name="kso.android.kotlinflow.ui.room.RoomDBActivity"
             android:label="@string/room_database" />
         <activity
-            android:name=".ui.errorhandling.catch.CatchActivity"
+            android:name="kso.android.kotlinflow.ui.errorhandling.catch.CatchActivity"
             android:label="@string/catch_error" />
         <activity
-            android:name=".ui.errorhandling.emitall.EmitAllActivity"
+            android:name="kso.android.kotlinflow.ui.errorhandling.emitall.EmitAllActivity"
             android:label="@string/emit_all_error" />
         <activity
-            android:name=".ui.task.onetask.LongRunningTaskActivity"
+            android:name="kso.android.kotlinflow.ui.task.onetask.LongRunningTaskActivity"
             android:label="@string/long_running_task" />
         <activity
-            android:name=".ui.task.twotasks.TwoLongRunningTasksActivity"
+            android:name="kso.android.kotlinflow.ui.task.twotasks.TwoLongRunningTasksActivity"
             android:label="@string/two_long_running_tasks" />
         <activity
-            android:name=".ui.map.MapActivity"
+            android:name="kso.android.kotlinflow.ui.map.MapActivity"
             android:label="@string/map" />
         <activity
-            android:name=".ui.filter.FilterActivity"
+            android:name="kso.android.kotlinflow.ui.filter.FilterActivity"
             android:label="@string/filter" />
         <activity
-            android:name=".ui.completion.CompletionActivity"
+            android:name="kso.android.kotlinflow.ui.completion.CompletionActivity"
             android:label="@string/completion" />
         <activity
-            android:name=".ui.reduce.ReduceActivity"
+            android:name="kso.android.kotlinflow.ui.reduce.ReduceActivity"
             android:label="@string/reduce" />
         <activity
-            android:name=".ui.search.SearchActivity"
+            android:name="kso.android.kotlinflow.ui.search.SearchActivity"
             android:label="@string/search" />
 
         <activity
-            android:name=".ui.retry.RetryActivity"
+            android:name="kso.android.kotlinflow.ui.retry.RetryActivity"
             android:label="@string/retry" />
 
         <activity
-            android:name=".ui.retrywhen.RetryWhenActivity"
+            android:name="kso.android.kotlinflow.ui.retrywhen.RetryWhenActivity"
             android:label="@string/retry_when" />
 
         <activity
-            android:name=".ui.retryexponentialbackoff.RetryExponentialBackoffActivity"
+            android:name="kso.android.kotlinflow.ui.retryexponentialbackoff.RetryExponentialBackoffActivity"
             android:label="@string/retry_when" />
 
         <activity
-            android:name=".ui.flowon.FlowOnActivity"
+            android:name="kso.android.kotlinflow.ui.flowon.FlowOnActivity"
             android:label="@string/flow_on" />
     </application>
 
