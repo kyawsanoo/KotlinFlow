@@ -1,4 +1,4 @@
-package me.amitshekhar.learn.kotlin.flow.utils
+package kso.android.kotlinflow.utils
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.ExperimentalCoroutinesApi

@@ -1,4 +1,4 @@
-package me.amitshekhar.learn.kotlin.flow.ui.retrofit.single
+package kso.android.kotlinflow.single
 
 import app.cash.turbine.test
 import junit.framework.TestCase.assertEquals
@@ -11,7 +11,7 @@ import kso.android.kotlinflow.data.local.DatabaseHelper
 import kso.android.kotlinflow.ui.retrofit.single.SingleNetworkCallViewModel
 import kso.android.kotlinflow.data.model.ApiUser
 import kso.android.kotlinflow.utils.DispatcherProvider
-import me.amitshekhar.learn.kotlin.flow.utils.TestDispatcherProvider
+import kso.android.kotlinflow.utils.TestDispatcherProvider
 import kso.android.kotlinflow.ui.base.UiState
 import org.junit.After
 import org.junit.Before
